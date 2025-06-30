@@ -7,6 +7,16 @@
 </head>
 <body>
     <h1>Olá, mundo!</h1>
-    <input type="text">
+    <input type="text" placeholder="Digite um texto...">
+    <button onclick="add()">adicionar</button>
+    <script>
+
+        function add(){
+        const input = document.querySelector('input')
+        const mensagem = input.value
+
+        alert(mensagem)
+        }
+    </script>
 </body>
 </html>
